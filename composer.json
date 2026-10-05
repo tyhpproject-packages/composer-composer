@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/composer-composer",
+    "description": "Tyhp type definitions for composer/composer 2.10.3.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "2.10.3",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/composer-composer-impl": "~2.10.3.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/composer-composer-impl"
+        }
+    }
+}
